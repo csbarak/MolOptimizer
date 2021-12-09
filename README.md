@@ -1,21 +1,32 @@
 # MolOptimizer
 Flask based package useful for optimization of fragment screening datasets
-@author: D. Samuel Joshua Viswas
-        Developed at Akabavoy Research Laboratories, Department of Chemistry, BGU
+Developed at Akabavoy Research Laboratories, Department of Chemistry, BGU
         Under the supervision of Dr. Barak Akabavoy
+@author: D. Samuel Joshua Viswas
+        
 
-                  *** User is free to download and modify MolOptimizer according to the need **
+                  *** User is free to download and modify MolOptimizer adhering to the license **
 ###############################################################################################################################################################################
-                                                                  !!!     IMPORTANT   !!!!
+                                                                  !!!!     IMPORTANT   !!!!
  PLEASE KINDLY NOTE THE FOLLOWING, 
  
-1. BSD 3-Clause License under which Chosen is released is included in the main.html script where Chosen is used. No Modifications/Upgradations have been made to Chosen. 
+1. MIT License under which Chosen is released is included in the main.html script where Chosen is used. No Modifications/Upgradations have been made to Chosen. 
+
 It is used in this project without any changes made to Chosen.
 
-2. MIT License under which RDKit Tethered Minimization code is released is included in the Align
+Link to GitHub Repository Chosen:  https://github.com/harvesthq/chosen
+Link to Chosen License Statement: https://github.com/harvesthq/chosen/blob/master/LICENSE.md
+
+
+2. MIT License under which RDKit Tethered Minimization code is released is included in the MACS_Script.py file.
+	Link to RDKit Tethered Minimization Github Repository: https://github.com/Discngine/rdkit_tethered_minimization
+	Link to RDKit Tethered Minimization License File: https://github.com/Discngine/rdkit_tethered_minimization/blob/master/LICENSE
+	
+4. RDKit software which is used for feature extraction is released under BSD 3-Ckause "New" or "Revised" License is included in the file RDKit_Features_Script is included in RDKit_Features_Script.py
 
 ###############################################################################################################################################################################
-Released under license: MIT License 
+
+MolOptimizer Released under license: MIT License 
 
 MIT License
 
