@@ -89,7 +89,7 @@ flask run
 MolOptimizer will start running on your local host. Copy past the URL generated in the Command Prompt/terminal in your web browser and you should see the
 template of MolOptimizer displayed as shown below. 
 
-*****************************************************************************************************************************************
+------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
 PLEASE KINDLY NOTE THE FOLLOWING, 
@@ -115,7 +115,6 @@ Link to RDKit License statement: https://github.com/rdkit/rdkit/blob/master/lice
 
 
 
-###############################################################################################################################################################################
 
 MolOptimizer Released under license: MIT License 
 
