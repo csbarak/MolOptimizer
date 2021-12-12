@@ -1,3 +1,18 @@
+# MolOptimizer
+Flask based package useful for optimization of fragment screening datasets
+
+#################################################################################################
+Please kindly note the following things:
+
+1. MolOptimizer is released under MIT License. 
+
+2. Chosen which is used in MolOptimizer is released under MIT License. 
+   The license statement is included in the script which calls and uses Chosen. 
+
+3. RDKit is released under BSD 3-Clause "New" or "Revised" License.
+   The license statement is included in the script which calls and uses RDKit. 
+
+###############################################################################################
 MIT License
 
 Copyright (c) 2021 Barak Akabayov 
