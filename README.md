@@ -48,6 +48,37 @@ and training Machine Learning models to predict binding scores.
 * Conclusion & Future Improvements
 
 ### Setting up MolOptimizer
+App.py acts as the main runner script for MolOptimizer. 
+Mentioned below is the list of folders which have to be created to before running MolOptimizer.
+
+List of folders which the user has to create
+| Folders which need to be created 	  		| Folders which need to be created         |
+| ------------------------------------------------- | --------------------------------------------- |
+| PICTURES								      		|	Web_Decision_Tree_Regression_Initial        |
+| templates (where main.html is located)      		| Web_Decision_Tree_Regression_NotInitial       |
+| UPLOADS_ALIGN							            | Web_Decision_Tree_Regression_Results	        |
+| UPLOADS_Decision_Tree_Prediction		      		| Web_Decision_Tree_Regressor_Manual_Mode       |
+| UPLOADS_Decision_Tree_Regressor	    	  		| Web_Decision_Tree_Regressor_Manual_Prediction |
+| UPLOADS_Decision_Tree_Regressor_Manual_Mode 		| Web_DecisionTree_FeatureImportance		    |
+| UPLOADS_Decision_Tree_Regressor_Manual_Prediction	| Web_Expert_FeatureImportance 			  		|
+| UPLOADS_Decision_Tree_Regressor_NotInitial	    | Web_Expert_Models								|
+| UPLOADS_EXPERTMODE_ModelTraining					| Web_Expert_Models_NotInitial					|
+| UPLOADS_EXPERTMODE_ModelTraining_NotInitial		| Web_Expert_Results							|
+| UPLOADS_FeatureCorrelation						| Web_FeatureImportance							|
+| UPLOADS_FeatureExtraction_Mordred					| Web_Features_Extracted_Mordred				|
+| UPLOADS_FeatureExtraction_RDKIT					| Web_Features_Extracted_RDKIT					|
+| UPLOADS_Lasso_Regression_Initial					| Web_Lasso_Regression_Download					|
+| UPLOADS_Lasso_Regression_Manual					| Web_Lasso_Regression_FeatureImportance		|
+| UPLOADS_Lasso_Regression_Manual_Prediction		| Web_Lasso_Regression_Initial					|
+| UPLOADS_Lasso_Regression_NotInitial				| Web_Lasso_Regression_Manual_Prediction		|
+| UPLOADS_Lasso_Regression_Prediction				| Web_Lasso_Regression_Manual_Training			|
+| UPLOADS_Model_Training							| Web_Lasso_Regression_NotInitial				|
+| UPLOADS_Prediction								| Web_Lasso_Regression_Results					|
+| Web_Models										| Web_Results									|
+
+In all of the scripts provided with MolOptimizer please kindly add the fullpaths to the mentioned required folders. 
+
+Once the folders are created in the directory and the paths to the folders added in the scripts, MolOptimizer can be run.
 
 
 ### How to run MolOptimizer
@@ -55,7 +86,9 @@ Kindly download the YAML file containing the anaconda environment required for M
 ```
 flask run 
 ```
-MolOptimizer will start running on your local host. Copy past the URL generated 
+MolOptimizer will start running on your local host. Copy past the URL generated in the Command Prompt/terminal in your web browser and you should see the
+template of MolOptimizer displayed as shown below. 
+
 *****************************************************************************************************************************************
 !!!!     IMPORTANT   !!!!
 
@@ -111,30 +144,7 @@ SOFTWARE.
 
 ############################################################################################################################################################################
 
-List of folders which the user has to create
-| Folder names which need to be created 	  		| Folder names which need to be created         |
-| ------------------------------------------------- | --------------------------------------------- |
-| PICTURES								      		|	Web_Decision_Tree_Regression_Initial        |
-| templates (where main.html is located)      		| Web_Decision_Tree_Regression_NotInitial       |
-| UPLOADS_ALIGN							            | Web_Decision_Tree_Regression_Results	        |
-| UPLOADS_Decision_Tree_Prediction		      		| Web_Decision_Tree_Regressor_Manual_Mode       |
-| UPLOADS_Decision_Tree_Regressor	    	  		| Web_Decision_Tree_Regressor_Manual_Prediction |
-| UPLOADS_Decision_Tree_Regressor_Manual_Mode 		| Web_DecisionTree_FeatureImportance		    |
-| UPLOADS_Decision_Tree_Regressor_Manual_Prediction	| Web_Expert_FeatureImportance 			  		|
-| UPLOADS_Decision_Tree_Regressor_NotInitial	    | Web_Expert_Models								|
-| UPLOADS_EXPERTMODE_ModelTraining					| Web_Expert_Models_NotInitial					|
-| UPLOADS_EXPERTMODE_ModelTraining_NotInitial		| Web_Expert_Results							|
-| UPLOADS_FeatureCorrelation						| Web_FeatureImportance							|
-| UPLOADS_FeatureExtraction_Mordred					| Web_Features_Extracted_Mordred				|
-| UPLOADS_FeatureExtraction_RDKIT					| Web_Features_Extracted_RDKIT					|
-| UPLOADS_Lasso_Regression_Initial					| Web_Lasso_Regression_Download					|
-| UPLOADS_Lasso_Regression_Manual					| Web_Lasso_Regression_FeatureImportance		|
-| UPLOADS_Lasso_Regression_Manual_Prediction		| Web_Lasso_Regression_Initial					|
-| UPLOADS_Lasso_Regression_NotInitial				| Web_Lasso_Regression_Manual_Prediction		|
-| UPLOADS_Lasso_Regression_Prediction				| Web_Lasso_Regression_Manual_Training			|
-| UPLOADS_Model_Training							| Web_Lasso_Regression_NotInitial				|
-| UPLOADS_Prediction								| Web_Lasso_Regression_Results					|
-| Web_Models										| Web_Results									|
+
    
 ##############################################################################################################################################################################
 
