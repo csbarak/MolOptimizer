@@ -126,6 +126,8 @@ flask run
 MolOptimizer will start running on your local host. Copy past the URL generated in the Command Prompt/terminal in your web browser and you should see the
 template of MolOptimizer displayed as shown below. 
 
+* Using Alignment Section
+  Please upload your files 
 ------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
