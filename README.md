@@ -124,12 +124,20 @@ Kindly download the YAML file('MolOptimizer_env.yml') containing the anaconda en
 ```
 flask run 
 ```
-MolOptimizer will start running on your local host. Copy past the URL generated in the Command Prompt/terminal in your web browser and you should see the
-template of MolOptimizer displayed as shown below. 
+MolOptimizer will start running on your local host as shown below, 
+![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Flask_Message.JPG)
+Copy past the URL generated in the Command Prompt/terminal in your web browser and you should see the
+webpage of MolOptimizer displayed as shown below. 
 
 * Using Alignment Section
   ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Molecules_Alignment_Section_png.png)
   Please upload your files in SDF format for this section. Upload the reference molecule and then the ligand database. Since MolOptimizer is running on local host, feel free to upload any file size. The execution time depends on the hardware of the local host.  
+ * Using Feature Extraction Section
+ ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Feature_Extraction_Section_png_2.png)
+ Please upload multi-molecule(only) .MOL2 files to either RDKit or Mordred Sections for extraction of chemical descriptors. 
+ 
+ * Using Expert Mode - XGBoost
+   In Expert Mode 
 ------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
