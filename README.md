@@ -113,7 +113,7 @@ have been used.
    learning model with the recommended features and use this model to predict the binding scores. 
 
 #### Manual Mode
-   ##### In case the model in Expert Mode gives a high RMSD error rate. User has the option to manually enter the hyper parameters for the models and select the features
+   In case the model in Expert Mode gives a high RMSD error rate. User has the option to manually enter the hyper parameters for the models and select the features
    from a drop down menu to train the models. 
  
 ---
