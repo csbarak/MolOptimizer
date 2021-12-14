@@ -55,6 +55,7 @@ and training Machine Learning models to predict binding scores.
 	* [Manual Mode] Lasso Regression
 	* [Expert Mode] Decision Tree Regressor
 	* [Manual Mode] Decision Tree Regressor
+* Note to user
 * Credits
 * License
 * Conclusion & Future Improvements
@@ -127,7 +128,8 @@ MolOptimizer will start running on your local host. Copy past the URL generated 
 template of MolOptimizer displayed as shown below. 
 
 * Using Alignment Section
-  Please upload your files 
+  ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Molecules_Alignment_Section_png.png)
+  Please upload your files in SDF format for this section. Upload the reference molecule and then the ligand database. Since MolOptimizer is running on local host, feel free to upload any file size. The execution time depends on the hardware of the local host.  
 ------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
