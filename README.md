@@ -137,13 +137,24 @@ webpage of MolOptimizer displayed as shown below.
  Please upload multi-molecule(only) .MOL2 files to either RDKit or Mordred Sections for extraction of chemical descriptors. 
  
  * Using Expert Mode - XGBoost
+ 
    ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/XGBoost_EM_png.png)
+   
+   
    In Expert Mode, user can upload csv file containing chemical descriptor values of molecules along with the binding scores under the column 'BOND'. The model iteraters through    a dictionary of parameters to find the optimal parameters for the dataset. User is encouraged to change the parameters dictionary found in the script 'ExpertMode_One.py'. On    clicking submit, uses GridSearchCV and uses the recommended parameters to train the model on the dataset. The progress of training of the model can be seen through the          loading of icon the browser and also through the command prompt/terminal in which MolOptimizer is running. 
+   
    ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Recommended_Features.JPG)
+   
    *Only* after the browser completes the training process should the user right-click on the pop up dialog box which appears on the screen to see the recommended features.
    The following section is displayed after closing the dialogue box, 
+   
    ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/XGBoost_EM_2.JPG)
-   After re-uploading the csv files, kindly the features to train the model with and click submit. The progress of training of the model can be noted through the loading icon on    the browser and also from the terminal. Once the training is completed user is requested to click on the following pop up box if the user wishes to see the RMSD error value      of the model. ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/xg_em2_RMSD.JPG) 
+   
+   
+   After re-uploading the csv files, kindly the features to train the model with and click submit. The progress of training of the model can be noted through the loading icon on    the browser and also from the terminal. Once the training is completed user is requested to click on the following pop up box if the user wishes to see the RMSD error value      of the model. 
+   
+   ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/xg_em2_RMSD.JPG) 
+   
    User can then upload files containing only the chemical descriptors and get the prediction of binding scores from the trained model.
    
    
