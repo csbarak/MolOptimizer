@@ -190,6 +190,7 @@ Kind note to the user: Expert Mode and Manual Mode of all the rest of the algori
    		* Kindly make sure that while entering the complete paths in the scripts that you use '\\'. Feel free to change it depending on the platform in which you are                       running.
 
 * Credits
+
   Thanks to my supervisor Dr. Barak Akabayov and all the amazing members of the group. 
   
   * Link to GitHub Repository of Chosen:  https://github.com/harvesthq/chosen
@@ -200,6 +201,7 @@ Kind note to the user: Expert Mode and Manual Mode of all the rest of the algori
   * Link to Mordred License Statement: https://github.com/mordred-descriptor/mordred/blob/develop/LICENSE
  
 * License
+
   MolOptimizer uses Chosen, RDKit, RDKit Tetherd Minimization and Mordred libraries in its program without any modifications. The license statements for all of the mentioned     programs is kept 'as is' in the script files. 
   
   MolOptimizer is released under MIT License.
