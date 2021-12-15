@@ -179,71 +179,30 @@ Kind note to the user: Expert Mode and Manual Mode of all the rest of the algori
 
 * Using Manual Mode - Decision Tree Regressor
 ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/dt_mm.JPG)
-------------------------------------------------------------------------------------------------------------------- 
-!!!!     IMPORTANT   !!!!
 
-PLEASE KINDLY NOTE THE FOLLOWING, 
+* Note to user
+	* Kindly delete uploaded and generated files from folders after running MolOptimizer so that MolOptimizer does not read from previous files.
+	* If XGBoost Expert Mode model throws an error please select higher number of recommended features to train from. 
+	* Please kindly make sure to add the full paths to each of the folders in the relevant scripts (mainly 'app.py' file)
+	* Debuging
+		* If the front end of MolOptimizer is not responding, check the terminal for any error messages. 
+		* Please do make sure that you are running in the environment provided by MolOptimizer
+   		* Kindly make sure that while entering the complete paths in the scripts that you use '\\'. Feel free to change it depending on the platform in which you are                       running.
+
+* Credits
+  Thanks to my supervisor Dr. Barak Akabayov and all the amazing members of the group. 
+  
+  * Link to GitHub Repository of Chosen:  https://github.com/harvesthq/chosen
+  * Link to Chosen License Statement: https://github.com/harvesthq/chosen/blob/master/LICENSE.md
+  * Link to RDKit Tethered Minimization GitHub Repository: https://github.com/Discngine/rdkit_tethered_minimization
+  * Link to RDKit Tethered Minimization License File: https://github.com/Discngine/rdkit_tethered_minimization/blob/master/LICENSE
+  * Link to Mordred GitHub Repository: https://github.com/mordred-descriptor/mordred
+  * Link to Mordred License Statement: https://github.com/mordred-descriptor/mordred/blob/develop/LICENSE
  
-1. MIT License under which Chosen is released is included in the main.html script where Chosen is used. No Modifications/Upgradations have been made to Chosen. 
-
-It is used in this project without any changes made to Chosen.
-
-Link to GitHub Repository of Chosen:  https://github.com/harvesthq/chosen
-Link to Chosen License Statement: https://github.com/harvesthq/chosen/blob/master/LICENSE.md
-
-
-2. MIT License under which RDKit Tethered Minimization code is released is included in the MACS_Script.py file.
-
-Link to RDKit Tethered Minimization GitHub Repository: https://github.com/Discngine/rdkit_tethered_minimization
-Link to RDKit Tethered Minimization License File: https://github.com/Discngine/rdkit_tethered_minimization/blob/master/LICENSE
-	
-3. BSD 3-Clause "New" or "Revised" License under which RDKit software is released and is used in feature extraction section of MolOptimizer is included in the file RDKit_Features_Script.py
-
-Link to GitHub Repository of RDKit: https://github.com/rdkit/rdkit
-Link to RDKit License statement: https://github.com/rdkit/rdkit/blob/master/license.txt
-
-
-
-
-
-MolOptimizer Released under license: MIT License 
-
-MIT License
-
-Copyright (c) 2021 Barak Akabayov 
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-############################################
-
-
-   
-
-Information for users
-** Please kindly make sure to add the full paths to each of the folders in the scripts --
-
-Debuging
-
--->If the front end of MolOptimizer is not responding, check the terminal for any error messages. 
---> Please do make sure that you are running in the environment provided by MolOptimizer
---> Kindly make sure that while entering the complete paths in the scripts that you use '\\'. Feel free to change it depending on the platform in which you are running.
+* License
+  MolOptimizer uses Chosen, RDKit, RDKit Tetherd Minimization and Mordred libraries in it's program without any modifications. The license statements for all of the mentioned     programs is kept 'as is' in the script files. 
+  
+  MolOptimizer is released under MIT License.
 
 - - -
 MIT License
