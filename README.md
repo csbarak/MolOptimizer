@@ -169,6 +169,16 @@ Kind note to the user: Expert Mode and Manual Mode of all the rest of the algori
   
   For Expert Mode of Lasso Regression, the entire section is displayed. The user is requested to follow training of the model with the same procedure as mentioned for XGBoost     Expert Mode section
  
+* Using Manual Mode - Lasso Regression
+
+ ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/LASO_MM.JPG)
+
+* Using Expert Mode - Decision Tree Regressor
+
+![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/em_dt.JPG)
+
+* Using Manual Mode - Decision Tree Regressor
+![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/dt_mm.JPG)
 ------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
