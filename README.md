@@ -156,8 +156,19 @@ webpage of MolOptimizer displayed as shown below.
    ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/xg_em2_RMSD.JPG) 
    
    User can then upload files containing only the chemical descriptors and get the prediction of binding scores from the trained model.
+ 
+ * Using Manual Mode - XGBoost
    
-   
+   ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/xgboost_mm_png_2.png)
+   In Manual mode of XGBoost user can enter the hyper-parameters and select the features on which the model trains. Once the training of the model is completed, user selects the    features (the same features on which the model is trained on) for prediction. Once the page refreshes, user can click on the download button and a csv file containing the        predicted binding scores is downloaded. (The progress of training of the model can be noted by the loading icon in the browser)
+
+Kind note to the user: Expert Mode and Manual Mode of all the rest of the algorithms follows the same procedure as mentioned for XGBoost Expert and Manual Mode.
+
+* Using Expert Mode - Lasso Regression
+  ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/laso_em.JPG)
+  
+  For Expert Mode of Lasso Regression, the entire section is displayed. The user is requested to follow training of the model with the same procedure as mentioned for XGBoost     Expert Mode section
+ 
 ------------------------------------------------------------------------------------------------------------------- 
 !!!!     IMPORTANT   !!!!
 
