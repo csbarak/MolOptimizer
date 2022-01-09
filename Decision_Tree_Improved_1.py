@@ -3,7 +3,7 @@ def make_it_rain(filename):
     import os
     import numpy as np
     from sklearn.model_selection import train_test_split, GridSearchCV
-    dataframe=pandas.read_csv('D:\\Samuel\\WebServer\\UPLOADS_Decision_Tree_Regressor\\'+filename)
+    dataframe=pandas.read_csv('<add path to UPLOADS_Decision_Tree_Regressor>\\'+filename)
     X=dataframe
     X=X.drop('BOND',axis=1)
     Y=dataframe['BOND']
@@ -52,12 +52,12 @@ def make_it_rain(filename):
     arr = np.array(top_important_features)
     # Start of clean up job
     file = 'TopFeatures.txt'
-    location = "D:\\Samuel\\WebServer\\Web_DecisionTree_FeatureImportance"
+    location = "<Add path to Web_DecisionTree_FeatureImportance>"
     path = os.path.join(location, file)
     if os.path.exists(path):
         os.remove(path)
     # End of clean up job
-    with open("D:\\Samuel\\WebServer\\Web_DecisionTree_FeatureImportance\\TopFeatures.txt", "w") as txt_file:
+    with open("< Add path to Web_DecisionTree_FeatureImportance\\TopFeatures.txt>", "w") as txt_file:
         for line in arr:
             txt_file.write("".join(line) + "\n")  # works with any number of elements in a line
     # Writing the error metrics to the file
@@ -71,12 +71,12 @@ def make_it_rain(filename):
     RootMeanSquaredErrorWrite = str(RootMeanSquaredError)
     # Start of clean up job
     file = 'CustomModel_rmse.txt'
-    location = "D:\\Samuel\\WebServer\\Web_Decision_Tree_Regression_Initial"
+    location = "< Add path to Web_Decision_Tree_Regression_Initial>"
     path = os.path.join(location, file)
     if os.path.exists(path):
         os.remove(path)
     # End of clean up job
-    txt_file = open("D:\\Samuel\\WebServer\\Web_Decision_Tree_Regression_Initial\\CustomModel_rmse.txt", "w")
+    txt_file = open("<Add path to \Web_Decision_Tree_Regression_Initial\\CustomModel_rmse.txt>", "w")
     txt_file.write("The Mean Absolute Error is ")
     txt_file.write(MeanAbsoluteErrorWrite)
     txt_file.write("The Mean Squared Error is")
