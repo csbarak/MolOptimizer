@@ -181,6 +181,7 @@ Kind note to the user: Expert Mode and Manual Mode of all the rest of the algori
 ![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/dt_mm.JPG)
 
 * Note to user
+	* MolOptimizer looks best on Chrome
 	* Kindly delete uploaded and generated files from folders after running MolOptimizer so that MolOptimizer does not read from previous files.
 	* If XGBoost Expert Mode model throws an error please select higher number of recommended features to train from. 
 	* Please kindly make sure to add the full paths to each of the folders in the relevant scripts (mainly 'app.py' file)
