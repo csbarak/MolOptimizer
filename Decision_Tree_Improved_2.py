@@ -16,7 +16,7 @@ def make_it_rain(filename,Num_Features):
 
     # Start of clean up job
     file = 'Decision_Tree_Regressor_NotInitial.pkl'
-    location = "D:\\Samuel\\WebServer\\Web_Decision_Tree_Regression_NotInitial"
+    location = "<Add path to Web_Decision_Tree_Regression_NotInitial>"
     path = os.path.join(location, file)
     if os.path.exists(path):
         os.remove(path)
@@ -25,8 +25,8 @@ def make_it_rain(filename,Num_Features):
     #
     # Reading the data
     #
-    dataframe = pandas.read_csv('D:\\Samuel\\WebServer\\UPLOADS_Decision_Tree_Regressor_NotInitial\\' + filename)
-    with open("D:\\Samuel\\WebServer\\Web_DecisionTree_FeatureImportance\\TopFeatures.txt") as f:
+    dataframe = pandas.read_csv('< Add path to UPLOADS_Decision_Tree_Regressor_NotInitial\\>' + filename)
+    with open("< Add path to Web_DecisionTree_FeatureImportance\\TopFeatures.txt>") as f:
         mylist = f.read().splitlines()
     SelectedFeatures = mylist[0:Num_Features]
     X = dataframe
@@ -70,7 +70,7 @@ def make_it_rain(filename,Num_Features):
     #
     #
     # Saving the project to a file
-    with open('D:\Samuel\WebServer\Web_Decision_Tree_Regression_NotInitial\Decision_Tree_Regressor_NotInitial.pkl', 'wb') as file:
+    with open('<Add path to Web_Decision_Tree_Regression_NotInitial\Decision_Tree_Regressor_NotInitial.pkl>', 'wb') as file:
         pickle.dump(tuned_hyper_model, file)
     MeanAbsoluteError=metrics.mean_absolute_error(y_test, tuned_pred)
     MeanSquaredError=metrics.mean_squared_error(y_test, tuned_pred)
@@ -80,12 +80,12 @@ def make_it_rain(filename,Num_Features):
     RootMeanSquaredErrorWrite = str(RootMeanSquaredError)
     # Start of clean up job
     file = 'CustomModel_rmse.txt'
-    location = "D:\\Samuel\\WebServer\\Web_Decision_Tree_Regression_NotInitial"
+    location = "< Add path to Web_Decision_Tree_Regression_NotInitial>"
     path = os.path.join(location, file)
     if os.path.exists(path):
         os.remove(path)
     # End of clean up job
-    txt_file = open("D:\\Samuel\\WebServer\\Web_Decision_Tree_Regression_NotInitial\\CustomModel_rmse.txt", "w")
+    txt_file = open("< Add path to Web_Decision_Tree_Regression_NotInitial\\CustomModel_rmse.txt>", "w")
     txt_file.write("The Mean Absolute Error is ")
     txt_file.write(MeanAbsoluteErrorWrite)
     txt_file.write("The Mean Squared Error is")
