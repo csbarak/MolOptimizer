@@ -48,30 +48,7 @@ In all of the scripts provided with MolOptimizer please kindly add the fullpaths
 
 Once the folders are created in the directory and the paths to the folders added in the scripts, MolOptimizer is ready to be run.
 
-### Features of MolOptimizer
 
-#### Molecules Alignment Section 				
-	
-In this section, a ligand database(in .SDF file format) can be aligned with a reference molecule(in .SDF file format) using RDKit Most Common Substructure module.
-The parameters for alignment can be edited according to the user requirements through MCS_Script.py file. For MolOptimizer the default parameters of MCS module 
-have been used.
-
-#### Feature Extraction Section					
-
-##### Extraction of chemical descriptors can be done using RDKit and Mordred open source cheminformatics libraries.
- User can choose the either of the two libraries for feature extraction and upload files in .MOL2 format.
- Extracted features can be then downloaded in .csv format. 
-
-#### Expert Mode
-   MolOptimizer offers Machine Learning Algorithms in two flavours, Expert Mode and Manual Mode. In Expert Mode, the Machine Learning algorithms trains on the
-   optimial parameters for the dataset and recommends the top ten most influential features to the user in ascending order. The user can then opt to train machine 
-   learning model with the recommended features and use this model to predict the binding scores. 
-
-#### Manual Mode
-   In case the model in Expert Mode gives a high RMSD error rate. User has the option to manually enter the hyper parameters for the models and select the features
-   from a drop down menu to train the models. 
- 
----
 
 ### How to run MolOptimizer
 Kindly download the YAML file('MolOptimizer_env.yml') containing the anaconda environment required for MolOptimizer. This will enable to use RDKit and Mordred libraries along with the Machine Learning Algorithms. 'App.py' acts as the main runner script for MolOptimizer. 
