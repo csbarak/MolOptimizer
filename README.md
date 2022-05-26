@@ -39,56 +39,10 @@ in optimization of ligand databases.
 MolOptimizer is a flask based web package which can be used for Alignment of large ligand datasets, extracting large volume of Chemical Descriptors
 and training Machine Learning models to predict binding scores. 
 
-## Table of contents
-* Setting up MolOptimizer
-* Features of MolOptimizer
-	* Molecules Alignment Section
-	* Feature Extraction Section
-	* Expert Mode 
-	* Manual Mode 
-* How to run MolOptimizer and use it's various sections
-	* Alignment Section
-	* Feature Extraction Section
-	* [Expert Mode] Extreme Gradient Boosting
-	* [Manual Mode] Extreme Gradient Boosting
-	* [Expert Mode] Lasso Regression
-	* [Manual Mode] Lasso Regression
-	* [Expert Mode] Decision Tree Regressor
-	* [Manual Mode] Decision Tree Regressor
-* Note to user
-* Credits
-* License
-* Conclusion & Future Improvements
 
 ### Setting up MolOptimizer
 
-App.py acts as the main runner script for MolOptimizer. 
-Mentioned below is the list of folders which have to be created to before running MolOptimizer.
 
-List of folders which the user has to create
-| Folders which need to be created 	  		| Folders which need to be created         |
-| ------------------------------------------------- | --------------------------------------------- |
-| PICTURES								      		|	Web_Decision_Tree_Regression_Initial        |
-| templates (where main.html is located)      		| Web_Decision_Tree_Regression_NotInitial       |
-| UPLOADS_ALIGN							            | Web_Decision_Tree_Regression_Results	        |
-| UPLOADS_Decision_Tree_Prediction		      		| Web_Decision_Tree_Regressor_Manual_Mode       |
-| UPLOADS_Decision_Tree_Regressor	    	  		| Web_Decision_Tree_Regressor_Manual_Prediction |
-| UPLOADS_Decision_Tree_Regressor_Manual_Mode 		| Web_DecisionTree_FeatureImportance		    |
-| UPLOADS_Decision_Tree_Regressor_Manual_Prediction	| Web_Expert_FeatureImportance 			  		|
-| UPLOADS_Decision_Tree_Regressor_NotInitial	    | Web_Expert_Models								|
-| UPLOADS_EXPERTMODE_ModelTraining					| Web_Expert_Models_NotInitial					|
-| UPLOADS_EXPERTMODE_ModelTraining_NotInitial		| Web_Expert_Results							|
-| UPLOADS_FeatureCorrelation						| Web_FeatureImportance							|
-| UPLOADS_FeatureExtraction_Mordred					| Web_Features_Extracted_Mordred				|
-| UPLOADS_FeatureExtraction_RDKIT					| Web_Features_Extracted_RDKIT					|
-| UPLOADS_Lasso_Regression_Initial					| Web_Lasso_Regression_Download					|
-| UPLOADS_Lasso_Regression_Manual					| Web_Lasso_Regression_FeatureImportance		|
-| UPLOADS_Lasso_Regression_Manual_Prediction		| Web_Lasso_Regression_Initial					|
-| UPLOADS_Lasso_Regression_NotInitial				| Web_Lasso_Regression_Manual_Prediction		|
-| UPLOADS_Lasso_Regression_Prediction				| Web_Lasso_Regression_Manual_Training			|
-| UPLOADS_Model_Training							| Web_Lasso_Regression_NotInitial				|
-| UPLOADS_Prediction								| Web_Lasso_Regression_Results					|
-| Web_Models										| Web_Results									|
 
 In all of the scripts provided with MolOptimizer please kindly add the fullpaths to the mentioned required folders. 
 
@@ -96,13 +50,13 @@ Once the folders are created in the directory and the paths to the folders added
 
 ### Features of MolOptimizer
 
-#### Molecules Alignment Section 				![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/alignment.PNG)
+#### Molecules Alignment Section 				
 	
 In this section, a ligand database(in .SDF file format) can be aligned with a reference molecule(in .SDF file format) using RDKit Most Common Substructure module.
 The parameters for alignment can be edited according to the user requirements through MCS_Script.py file. For MolOptimizer the default parameters of MCS module 
 have been used.
 
-#### Feature Extraction Section					![alt_text](https://github.com/csbarak/MolOptimizer/blob/main/Feature_Extraction.png)
+#### Feature Extraction Section					
 
 ##### Extraction of chemical descriptors can be done using RDKit and Mordred open source cheminformatics libraries.
  User can choose the either of the two libraries for feature extraction and upload files in .MOL2 format.
@@ -120,7 +74,8 @@ have been used.
 ---
 
 ### How to run MolOptimizer
-Kindly download the YAML file('MolOptimizer_env.yml') containing the anaconda environment required for MolOptimizer. This will enable to use RDKit and Mordred libraries along with the Machine Learning Algorithms. Once in the provided anaconda environment, please use the following command,
+Kindly download the YAML file('MolOptimizer_env.yml') containing the anaconda environment required for MolOptimizer. This will enable to use RDKit and Mordred libraries along with the Machine Learning Algorithms. 'App.py' acts as the main runner script for MolOptimizer. 
+Once in the provided anaconda environment, please use the following command,
 ```
 flask run 
 ```
