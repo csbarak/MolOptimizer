@@ -51,8 +51,7 @@ Once the folders are created in the directory and the paths to the folders added
 
 
 ### How to run MolOptimizer
-Kindly download the YAML file('MolOptimizer_env.yml') containing the anaconda environment required for MolOptimizer. This will enable to use RDKit and Mordred libraries along with the Machine Learning Algorithms. 'App.py' acts as the main runner script for MolOptimizer. 
-Once in the provided anaconda environment, please use the following command,
+Download MolOptimizer from the repository and set up the YAML file ('MolOptimizer_env.yml') containing the anaconda environment required for MolOptimizer. This will enable usage of RDKit and Mordred libraries along with the Machine Learning Algorithms. Once in the provided anaconda environment, use the following command,
 ```
 flask run 
 ```
